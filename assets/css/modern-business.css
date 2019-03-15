@@ -45,8 +45,8 @@ body {
 }
 
 @keyframes link-backgrounds {
-  from {color: grey;}
-  to {color: #FC5C7D;}
+  from {color: #FC5C7D;}
+  to {color: grey;}
 }
 
 .fab:hover{
@@ -92,9 +92,9 @@ body {
   color: white;
   letter-spacing: 1px;
   line-height: 15px;
-  background: #6A82FB;  
-  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
-  background: linear-gradient(to right, #6A82FB, #FC5C7D);
+  background: #FC5C7D;  
+  background: -webkit-linear-gradient(to right, #FC5C7D, #6A82FB);  
+  background: linear-gradient(to right, #FC5C7D, #6A82FB);
   margin: 20px;
   border:0px solid transparent;
 }
@@ -120,6 +120,28 @@ h3 {
 
 .card-text{
   font-family: sans-serif;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.clickable-container{
+  text-align: center;
+  background-image: linear-gradient(#FC5C7D, #FC5C7D);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition:all .2s ease-in-out;
+  padding: 8px 25px !important;
+  font-family: 'Pacifico', cursive, sans-serif;
+  color: white !important;
+}
+
+.clickable-container:hover {
+  background-size: 100% 5px, auto;
+}
   
 }
 
