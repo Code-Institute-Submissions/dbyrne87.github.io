@@ -2,32 +2,35 @@
 body {
   padding-top: 56px;
   text-align: center;
+  background-image: linear-gradient(to right, #242348, #595896);
+  color: #FDFDFF;
   
 }
 
 a, a:hover {
   text-decoration: none;
-  color:black;
+  color:#FDFDFF;
   
 }
 
 .nav-link, .card-header{
   padding: 8px 25px !important;
-  font-family: 'Pacifico', cursive, sans-serif;
-  color: white !important;
+  font-family: 'Sniglet', 'Comfortaa', cursive;
+  color: #FDFDFF !important;
   
 }
 
 
 @keyframes link-backgrounds {
-  from {color: #FC5C7D;}
+  from {color: #E83C86;}
   to {color: grey;}
 }
 
 h3, .our-music-section {
   padding: 20px 0px;
-  border-bottom: 1px solid #FC5C7D;
-  font-family: 'Pacifico', cursive, sans-serif;
+  border-bottom: 3px solid #E83C86;
+  font-family: 'Sniglet', 'Comfortaa', cursive;
+  
 }
 
 ul{
@@ -37,9 +40,8 @@ ul{
 .btn{
   font-size: 20px;
   color: white;
-  background: #FC5C7D;  
-  background: -webkit-linear-gradient(to right, #FC5C7D, #6A82FB);  
-  background: linear-gradient(to right, #FC5C7D, #6A82FB);
+  background: #E25894;  
+  background-image: linear-gradient(to right, #E25894, #9749B3);
   margin: 20px;
   border:none;
   border-radius: 60px;
@@ -51,9 +53,8 @@ ul{
 }
 
 .navbar.bg-gradient-1, .footer-background, .list-group-item{
-  background:#FC5C7D;
-  background:-webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
-  background:linear-gradient(to right, #6A82FB, #FC5C7D)
+  background:#242348;
+  background-image: linear-gradient(to right, #242348, #595896)
   
 }
 
@@ -68,8 +69,8 @@ ul{
 }
 
 .nav-item{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-image: linear-gradient(#FC5C7D, #FC5C7D);
+  border-bottom: 3px solid #E83C86;
+  background-image: linear-gradient(to right, #3436E6, #E83C86);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -96,12 +97,10 @@ ul{
 
 .fab{
   margin-right: 40px !important;
-  padding:7px;
   display: inline-block;
-  color: grey;
+  color: #FDFDFF;
   border: none;
-  border-radius: 50%;
-  background-color: white;
+  background-color: #4B4A82;
   font-size: x-large;
   
 }
@@ -127,7 +126,7 @@ ul{
     text-decoration: none;
     top: 10%;
     bottom: auto;
-    font-family: 'Pacifico', cursive, sans-serif;
+    font-family: 'Sniglet', 'Comfortaa', cursive;
     color: #6A82FB;
     text-shadow: 3px 1px black;
     
@@ -148,26 +147,25 @@ ul{
  /* What We Do*/
 .card{
   background: #6A82FB;  
-  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
-  background: linear-gradient(to right, #6A82FB, #FC5C7D);
-  font-family: 'Pacifico', cursive, sans-serif;
+  background: linear-gradient(to right, #242348, #595896);
+  font-family: 'Sniglet', 'Comfortaa', cursive;
   
 }
 
 .card-text{
-  font-family: sans-serif;
+  font-family: 'Sniglet', 'Comfortaa', cursive;
   min-height: 96px;
   
 }
 
 .clickable-container{
-  background-image: linear-gradient(#FC5C7D, #FC5C7D);
+  background-image: linear-gradient(to right, #3436E6, #E83C86);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
   transition:all .2s ease-in-out;
   padding: 8px 25px !important;
-  font-family: 'Pacifico', cursive, sans-serif;
+  font-family: 'Sniglet', 'Comfortaa', cursive;
   color: white !important;
 }
 
@@ -177,7 +175,7 @@ ul{
 
 .list-group-item{
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-image: linear-gradient(#FC5C7D, #FC5C7D);
+  background-image: linear-gradient(to right, #7688eb, #6070d6, #4a58c0, #3341ab, #162b96);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -226,12 +224,6 @@ ul{
   
 }
 
-.review-border{
-  border: 2px solid #FC5C7D;
-  border-radius: 10px;
-  
-}
-
 .review-section{
   background-color: white;
   max-height: 450px;
@@ -250,7 +242,7 @@ ul{
   text-shadow: none;
   line-height: 25px;
   color: black;
-  font-family: sans-serif, monospace;
+  font-family: 'Sniglet', 'Comfortaa', cursive;
   padding: 40px 0px 20px 0px;
   
 }
