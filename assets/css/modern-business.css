@@ -4,6 +4,7 @@ body {
   text-align: center;
   background-image: linear-gradient(to right, #242348, #595896);
   color: #FDFDFF;
+  overflow: auto;
   
 }
 
@@ -261,5 +262,39 @@ ul{
 .footer-icons{
   padding-top: 20px;
   margin-top: 20px;
+  
+}
+
+ /* The Band Page*/
+
+.our-band-collage{
+  padding:56px 40px 0px 40px;
+  max-height: 64vh;
+  max-width: 1100px;
+  
+}
+
+.our-band-page-header{
+  font-size: 1.75rem;
+  padding: 20px 0px;
+  border-bottom: 3px solid #E83C86;
+  font-family: 'Sniglet', 'Comfortaa', cursive;
+  
+}
+
+/* Our Music Page*/
+.adj-for-scroll{
+  margin: 0;
+  
+}
+
+/* Book Now Page*/
+.book-now-form-area{
+  padding-top: 56px;
+  
+}
+
+.radio-inline{
+  padding-right: 40px;
   
 }
