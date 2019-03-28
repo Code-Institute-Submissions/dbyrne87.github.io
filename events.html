@@ -18,11 +18,11 @@
 
 </head>
 
-<body>
+<body class="container-fluid">
 
  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-1 fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="logo" src="/assets/media/images/TheJonesSmallLogo.jpg" alt="The Jones Logo"></img></a>
+        <a class="navbar-brand" href="index.html"><img class="logo" src="/assets/media/images/TheJonesSmallLogo.jpg" alt="The Jones Logo"></a>
       <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,128 +60,87 @@
       </ul>
     </div>
   </nav>
-  
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active" style="background-image: url('/assets/media/images/event.jpg')">
-          <div class="carousel-caption">
-            <h1>The Jones are playing next in,</h1>
-            <br>
-            <h2>The Central, Navan. <br> On 30 March 2019 <br> from 8pm</h2>
-            <a  href="#scroll-here"><button type="button" class="btn btn-dark"><i class="far fa-envelope mr-1"></i>  Contact Us</button></a>
-          </div>
-        </div>
-
-        <div class="carousel-item" style="background-image: url('/assets/media/images/christmas-party.jpg')">
-          <div class="carousel-caption">
-            <h1>Planning an Event?</h1>
-            <br>
-            <br>
-            <h2>Make it something to remember</h2>
-            <br>
-            <br>
-            <button type="button" class="btn btn-dark"><i class="far fa-calendar-alt"></i>  Book Now</button>
-          </div>
-        </div>
-        
-        <div class="carousel-item" style="background-image: url('/assets/media/images/wedding.jpg')">
-          <div class="carousel-caption">
-            <h1>Getting Married?</h1>
-            <br>
-            <h2>DON'T DO IT!!!
-            <br>.....without speaking to us first.</h2>
-            <br>
-            <br>
-            <a  href="#scroll-here"><button type="button" class="btn btn-dark "><i class="far fa-envelope"></i>  Contact Us</button></a>
-          </div>
-        </div>
-      </div>
-      
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </header>
 
   <div class="container-fluid">
-    <h3 class="col-xs-12 mx-auto text-center">What we Do</h3>
-
+    <h3 class="col-xs-12 mx-auto text-center events-header">What we Do</h3>
+  </div>   
+  <div class="container events-bottom-borders">  
     <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-80 text-center text-white bg-gradient-1 d-none d-md-block">
+      <div class="col-lg-6">
+        <div class="card h-80 text-center text-white bg-gradient-1">
           <img class="card-img-top" src="/assets/media/images/event.jpg" alt="Card image cap">
           <h4 class="card-header">Events</h4>
             <div class="card-body">
-              <p class="card-text">We perform at all types of Events in any type of venue. Pubs, Clubs or Outdoor Events no problem. </br>                          </p>
+              <p class="card-text">We perform at all types of Events in any type of venue. Pubs, Clubs or Outdoor Events no problem. <br>                          </p>
             </div>
-              <a href="/events.html">
-                <div class="card-footer"><p class="clickable-container">Learn More</p>
-                </div>
-              </a>
+              <div class="card-footer"><a href="/book-now.html" class="btn btn-dark"><i class="far fa-calendar-alt"></i>  Book Now</a>
+              </div>
         </div>
       </div>
       
-      <div class="col-lg-4 mb-4">
-        <div class="card h-80 text-center text-white d-none d-md-block">
+      <div class="col-lg-5 events-videos d-none d-md-block">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tMJTNIM30U8" allowfullscreen></iframe>
+          </div>
+        
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTheJonesMusic%2Fvideos%2F1942512745768736%2F&show_text=0&width=560" allowFullScreen></iframe>
+          </div>
+        </div>
+      </div>  
+   </div>
+      <div class="container events-bottom-borders">  
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card h-80 text-center text-white bg-gradient-1">
           <img class="card-img-top" src="/assets/media/images/christmas-party.jpg" alt="Card image cap">
           <h4 class="card-header">Christmas Parties</h4>
             <div class="card-body">
               <p class="card-text">Organising your work or organisations christmas party? Give your guests a night to remember....or try to.</p>
             </div>
-              <a href="/events.html">
-                <div class="card-footer"><p class="clickable-container">Learn More</p>
-                </div>
-              </a>
+              <div class="card-footer"><a href="/book-now.html" class="btn btn-dark"><i class="far fa-calendar-alt"></i>  Book Now</a>
+              </div>
         </div>
       </div>
       
-      <div class="col-lg-4 mb-4">
-        <div class="card h-80 text-center text-white d-none d-md-block">
+      <div class="col-lg-5 events-videos d-none d-md-block">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZAPHjz6euKU" allowfullscreen></iframe>
+          </div>
+        
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTheJonesMusic%2Fvideos%2F1348359291850754%2F&show_text=0&width=560" allowFullScreen></iframe>
+          </div>
+        </div>
+      </div>  
+   </div>
+     
+      <div class="container events-bottom-borders">  
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card h-80 text-center text-white bg-gradient-1">
           <img class="card-img-top" src="/assets/media/images/wedding.jpg" alt="Card image cap">
           <h4 class="card-header">Weddings</h4>
             <div class="card-body">
               <p class="card-text">Make organising a wedding that bit easier. Guaranteed to get your guests dancing even if all they do is the robot.</p>
             </div>
-            <a href="/events.html">
-              <div class="card-footer"><p class="clickable-container">Learn More</p>
+              <div class="card-footer"><a href="/book-now.html" class="btn btn-dark"><i class="far fa-calendar-alt"></i>  Book Now</a>
               </div>
-            </a>
         </div>
       </div>
       
-      <div class="card container-fluid d-md-none">
-        <ul class="list-group list-group-flush">
-          <a href="/events.html">
-            <li class="list-group-item">
-              <h3>Events</h3>
-              <p>We perform at all types of Events in any type of venue. Pubs, Clubs or Outdoor Events no problem.</p>
-            </li>
-            <li class="list-group-item">
-              <h3>Christmas Parties</h3>
-              <p>Organising your work or organisations christmas party? Give your guests a night to remember....or try to.</p>
-            </li>
-            <li class="list-group-item">
-              <h3>Weddings</h3>
-              <p>Make organising a wedding that bit easier. Guaranteed to get your guests dancing even if all they do is the robot.</p>
-            </li>
-          </a>
-        </ul>
+      <div class="col-lg-5 events-videos d-none d-md-block">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTheJonesMusic%2Fvideos%2F822572321408564%2F&show_text=0&width=560" allowFullScreen></iframe>
+          </div>
+        
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTheJonesMusic%2Fvideos%2F573459136442510%2F&show_text=0&width=560" allowFullScreen></iframe>
+          </div>
+        </div>
       </div>  
-    </div>
-  </div>  
-   
+   </div> 
+      
   <section>
     <div class="container-fluid our-band-section padding-md d-none d-lg-block">
       <h3 class="col-xs-12 mx-auto text-center">Our Band</h3>
@@ -190,28 +149,28 @@
         <ul class="row">
           <li class="col-12 col-md-6 col-lg-3 text-center">
             <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img class="profile-pictures" src="/assets/media/images/ruairi-pic.jpg" class="img-responsive" alt="Ruairi profile pic"></figure>
+              <figure><img class="profile-pictures img-responsive" src="/assets/media/images/ruairi-pic.jpg" alt="Ruairi profile pic"></figure>
                 <h3>Ruairi</h3>
                 <p>Lead Singer / Guitarist</p>
             </div>
           </li>
           <li class="col-12 col-md-6 col-lg-3 text-center">
             <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img class="profile-pictures" src="/assets/media/images/martin-pic.jpg" class="img-responsive" alt="Martin profile pic"></figure>
+              <figure><img class="profile-pictures img-responsive" src="/assets/media/images/martin-pic.jpg" alt="Martin profile pic"></figure>
                 <h3>Martin</h3>
                 <p>Bass</p>
             </div>
           </li>
           <li class="col-12 col-md-6 col-lg-3 text-center">
             <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img class="profile-pictures" src="/assets/media/images/karl-pic.jpg" class="img-responsive" alt="Karl profile pic"></figure>
+              <figure><img class="profile-pictures img-responsive" src="/assets/media/images/karl-pic.jpg" alt="Karl profile pic"></figure>
                 <h3>Karl</h3>
                 <p>Drummer</p>
             </div>
           </li>
           <li class="col-12 col-md-6 col-lg-3 text-center">
             <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img class="profile-pictures" src="/assets/media/images/seamus-pic.jpg" class="img-responsive" alt="Seamus profile pic"></figure>
+              <figure><img class="profile-pictures img-responsive" src="/assets/media/images/seamus-pic.jpg" alt="Seamus profile pic"></figure>
                 <h3>Seamus</h3>
                 <p>Keyboards</p>
             </div>
@@ -272,8 +231,7 @@
             </div>
             <a id="scroll-here"></a>
         </div>
-        <button type="button" class=" btn btn-dark col-xs-12 mx-auto text-center music-button">Click Here For More Of Our Music
-        </button>
+        <a href="/our-music.html" class=" btn btn-dark col-xs-12 mx-auto text-center music-button">Click Here For More Of Our Music</a>
       </div>
     </div>
   </section>
@@ -287,7 +245,7 @@
               <div class="carousel-item active">
                 <div class="carousel-caption-review">
                   <img class="five-star img-fluid" src="/assets/media/images/five-star.png" alt="First slide">
-                  <p class="review-text">"The Jones were fantastic. They engaged with us and had a laugh with us.</br> We would recommend you go see this band if they are on in your area.</br> Well worth a visit. Thanks for a great night."</p>
+                  <p class="review-text">"The Jones were fantastic. They engaged with us and had a laugh with us.<br> We would recommend you go see this band if they are on in your area.<br> Well worth a visit. Thanks for a great night."</p>
                   <p class="font-weight-bold">Avril</p>
                 </div>
               </div>
@@ -295,8 +253,8 @@
                 <div class="carousel-caption-review">
                   <img class="five-star img-fluid" src="/assets/media/images/five-star.png" alt="Second slide">
                   <p class="review-text">"Well Lads, just wanted to say a massive thank you, even though I don't know if I should be thanking you as my body is still sore from all the dancing. 
-                  </br>The music was fantastic and the dance floor was never empty. You got a lot of praise the following day. 
-                  </br> You were so easy to deal with from start to finish."</p>
+                  <br>The music was fantastic and the dance floor was never empty. You got a lot of praise the following day. 
+                  <br> You were so easy to deal with from start to finish."</p>
                   <p class="font-weight-bold">Thanks again Anna & Declan</p>
                 </div>
               </div>
@@ -334,12 +292,10 @@
         </form>
       </div>
     </div>
-    </a>
   </article>  
 
   <footer class="container-fluid footer-background">
-      <ul class="footer-icons">
-        <div class="row">
+      <ul class="footer-icons row">
           <li class="social-icons col-sm-6 col-md-3 col-lg-3 text-center">
             <a class="social-icon d-none d-md-block" href="https://www.facebook.com/TheJonesMusic/" target="_blank"><i class="fab fa-facebook-square"></i></a>
           </li>
@@ -350,11 +306,10 @@
             <a class="social-icon d-none d-md-block" href="https://www.youtube.com/channel/UCQ13In3Mv5xRHKAYHWxePRA" target="_blank"><i class="fab fa-youtube-square"></i></a>
           </li>
           <li class="social-icons col-sm-6 col-md-3 col-lg-3 text-center">
-            <a class="social-icon d-none d-md-block" href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square" target="_blank"></i></a>
-          </li
-        </div>
+            <a class="social-icon d-none d-md-block" href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          </li>
       </ul>
-      <a href="https://icons8.com/icon/52978/guitar">Guitar icon by Icons8</a>
+    <a href="https://icons8.com/icon/52978/guitar">Guitar icon by Icons8</a>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,60 +1,90 @@
-# [Start Bootstrap - Modern Business](https://startbootstrap.com/template-overviews/modern-business/)
+# Code Institiute Milestone Project - 1
 
-[Modern Business](http://startbootstrap.com/template-overviews/modern-business/) is a multipurpose, full website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template includes 17 unique HTML pages and a working PHP contact form.
+A clean and responsive website for a band, targeting both their current and potential future audience. 
 
-## Preview
+## UX
 
-[![Modern Business Preview](https://startbootstrap.com/assets/img/templates/modern-business.jpg)](https://blackrockdigital.github.io/startbootstrap-modern-business/)
+This website is used to promote the bands music while also making it easy for potential clients and/or fans to book them to performat events, weddings etc.
+The website layout was based around their primary and secondary targets for the website. 
+Firstly a set of wireframe diagrams where made to show the layout of the website on different screen sizes and was also used to iron out any potential issues that arose before coding the website.[Link To Wireframe](https://xd.adobe.com/view/93b734fd-348a-414f-69f4-79c2324e39f7-e586/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-modern-business/)**
+The websites layout is designed in such a way that each primary and secondary target has its own section on the page and is easily found.
+For the user I did not want to overwhelm them with information so I kept none necessary content such as the Book Now form to it's own page and give them a simple Contact Us form instead. 
 
-## Status
+Depending on the screen size some content is removed but is viewable on a dedicated page, an example of this is the Band section in the homepage is not viewable on mobile devices but is viewable in the Our Band webpage. 
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-modern-business/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-modern-business.svg)](https://www.npmjs.com/package/startbootstrap-modern-business)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-modern-business.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-modern-business)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-modern-business/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-modern-business)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-modern-business/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-modern-business?type=dev)
+## Features
 
-## Download and Installation
+### Homepage
+The Navbar is used to bring the fans/clients directly to the content they wish to see immediatly, it is fixed also so that they can use it no matter where they are on a page. Links to the bands social media are also seen here and at the bottom of each webpage.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/modern-business/)
-* Install via npm: `npm i startbootstrap-modern-business`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-modern-business.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-modern-business)
+I used the Bootstrap carousel with a background image to catch the users eye immediatly and promote the bands next gig and their availabilty for events and weddings.
 
-## Usage
+The What We Do section prvides an easily readable version of what the band offers.
 
-### Basic Usage
+The Band section explains each band members role, it is also clickable should the user want to find out more about the band.
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Our Music section provides a small number of videos and audio of the bands music while the button at the button makes it easy for the user to see more. 
 
-### Advanced Usage
+The following section is split in two, the left is a carousel showing some recent reviews of the band to build trust. The right is a Contact Us section should the user have any questions.
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+In a future version I would like to add a map feature showcasing the venues the band have played at using droplets on the map with information being shown when they are clicked. 
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+### Our Band Page
 
-## Bugs and Issues
+Used to provide the user with more information about the band and to showcase past accomplishments. 
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-modern-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/modern-business/).
+### Our Music Page
 
-## About
+Provides a full range of content of the bands music videos and audio.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+In a future version provide a way for users to purchase music from the band either by download or by CD. 
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+### Events Page
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Provides information of the types of events that they do while also giving the client video of a past type of event to showcase what they offer. 
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+#### Book Now Page
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+A simple booking form used by the client to book a type of event for a certain date. 
+While allowing the band easily collect the information they need.  
 
-## Copyright and License
+## Technologies Used
+HTML5 & CSS3
+Used for displaying the content and layout.
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-modern-business/blob/gh-pages/LICENSE) license.
+[Bootstrap](https://getbootstrap.com/)
+Used to make the website clean and responsive.
+Also used its built in features such as carousels and forms.
+
+[jQuery](http://code.jquery.com/)
+Required for Bootstrap components to run properly.
+
+## Testing
+As the webpages where being built I used the built in features of [Cloud9](https://aws.amazon.com/cloud9/) and Chromes built in developer tools. 
+
+I firstly tested the index.html page and stylesheet first as the information used on this page is used on the following pages. 
+After each section was developed of a page was developed I,
+1. made sure the content was responsive and layed out correctly as per the origional wireframe on desktop, tablet and mobile devices using the Chrome developer tools.
+2. made sure all links are correct
+3. made sure the code layout is correctly indented so it can be easily read. 
+
+After each page was finished I used the [W3C Validator](https://validator.w3.org/), to make sure both the HTML and CSS was up to current standards and best practice. I also made sure the code layout is correct for a final time and that all links and media work correctly
+
+## Deployment
+
+
+## Credits
+
+### Content
+
+I used the basic layout themplate here from Blackrock Digital (https://blackrockdigital.github.io/startbootstrap-modern-business/)
+
+Google fonts was used throughout the website
+(https://fonts.google.com/)
+
+Icons8 is used for the tab icon in the browser
+(https://icons8.com/icon/52978/guitar)
+
+GitHub is used to backup the code and display my work 
+(https://github.com/)
