@@ -1,10 +1,10 @@
  /* General CSS & Multiple CSS Classes*/
 body {
-  padding-top: 56px;
   text-align: center;
   background-image: linear-gradient(to right, #242348, #595896);
   color: #FDFDFF;
   overflow: auto;
+  margin-top: 50px;
   
 }
 
@@ -55,12 +55,17 @@ ul{
 }
 
 .navbar.bg-gradient-1, .footer-background, .list-group-item{
-  background:#242348;
-  background-image: linear-gradient(to right, #242348, #595896)
+  background: linear-gradient(to right, #242348, #595896);
+  background-image: linear-gradient(to right, #242348, #595896);
   
 }
 
  /* Navbar*/
+ 
+.navbar{
+  padding:0;
+  
+} 
 .logo{
   max-height: 60px;
   width: auto;
@@ -68,6 +73,15 @@ ul{
   border-radius: 10px;
   margin-right: 30px;
   
+}
+@media (max-width:767px) {
+  .logo{
+    top: 5px;
+    left:12px;
+    position: absolute;
+    max-height: 41px;
+    
+  }
 }
 
 .nav-item{
@@ -81,15 +95,11 @@ ul{
 }
 
 .navbar-toggler{
-  margin-left: 450px;
+  top: 7px;
+  right:14px;
+  position: absolute;
+  padding: 2px;
   
-}
-
-@media (max-width: 767px) {
-  .navbar-toggler{
-    margin-left: 100px;
-  
- }
 }
 
 @media (max-width: 342px) {
@@ -118,12 +128,19 @@ ul{
     animation-duration: 2s;
 }
 
+@media (max-width:767px) {
+.dropdown-padding{
+  padding-top: 40px;
+} 
+}
+
 /* Carousel*/
 .carousel-item {
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   background-size: cover;
+  
 
 }
 
@@ -132,8 +149,7 @@ ul{
     top: 10%;
     bottom: auto;
     font-family: 'Sniglet', 'Comfortaa', cursive;
-    color: #6A82FB;
-    text-shadow: 3px 1px black;
+    color: white;
     
 }
 
@@ -144,16 +160,44 @@ ul{
 
 @media only screen and (max-width: 380px){
 .carousel-caption h1, h2 {
-  font-size: 160%;
+  font-size: 130%;
   
 }
 }
 
+.background-highlight-one{
+  background-color:black;
+  max-width: 600px;
+  transform: rotate(3deg);
+  
+}
+
+.background-highlight-two{
+  background-color:black;
+  max-width: 600px;
+  transform: rotate(0deg);
+  
+}
+
+.background-blur-one{
+  background: linear-gradient(to top, rgb(102, 126, 234, 0), rgb(118, 75, 162, .5));
+  max-width: 500px;
+  border-radius: 10px;
+  
+}
+
+.background-blur-two{
+  background: linear-gradient(to top, rgb(102, 126, 234, 0), rgb(118, 75, 162, .5));
+  max-width: 500px;
+  border-radius: 10px;
+  
+}
+
  /* What We Do*/
 .card{
-  background: #6A82FB;  
   background: linear-gradient(to right, #242348, #595896);
   font-family: 'Sniglet', 'Comfortaa', cursive;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, .5);
   
 }
 

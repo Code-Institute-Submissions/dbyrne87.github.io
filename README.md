@@ -78,13 +78,19 @@ After each page was finished I used the [W3C Validator](https://validator.w3.org
 
 ### Content
 
-I used the basic layout themplate here from Blackrock Digital (https://blackrockdigital.github.io/startbootstrap-modern-business/)
-
 Google fonts was used throughout the website
 (https://fonts.google.com/)
 
 Icons8 is used for the tab icon in the browser
 (https://icons8.com/icon/52978/guitar)
+
+
+### Media
+UnSplash for the high resolution images.
+(https://unsplash.com/)
+### Acknowledgements
+
+I used the basic layout themplate here from Blackrock Digital (https://blackrockdigital.github.io/startbootstrap-modern-business/)
 
 GitHub is used to backup the code and display my work 
 (https://github.com/)
