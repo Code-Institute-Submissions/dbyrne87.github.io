@@ -1,15 +1,16 @@
-# Code Institiute Milestone Project - 1
+# Code Institute Milestone Project - 1
+## The Jones Music
 
-A clean and responsive website for a band, targeting both their current and potential future audience. 
+A clean and responsive website for a band, targeting both their current and potential future audience.
+This website is used to promote the bands music while also making it easy for potential clients and/or fans to book them to performe at events, weddings etc.
+The website layout was based around their primary and secondary targets for the website.
 
 ## UX
 
-This website is used to promote the bands music while also making it easy for potential clients and/or fans to book them to performat events, weddings etc.
-The website layout was based around their primary and secondary targets for the website. 
 Firstly a set of wireframe diagrams where made to show the layout of the website on different screen sizes and was also used to iron out any potential issues that arose before coding the website.[Link To Wireframe](https://xd.adobe.com/view/93b734fd-348a-414f-69f4-79c2324e39f7-e586/)
 
-The websites layout is designed in such a way that each primary and secondary target has its own section on the page and is easily found.
-For the user I did not want to overwhelm them with information so I kept none necessary content such as the Book Now form to it's own page and give them a simple Contact Us form instead. 
+The websites layout is designed so that each primary and secondary target has its own section on the page and is easily found both via the fixed top navbar or by scrolling on the page itself.
+For the user I did not want to overwhelm them with information so I kept unnecessary content such as the "Book Now" form to it's own page and give them a simple Contact Us form instead. 
 
 Depending on the screen size some content is removed but is viewable on a dedicated page, an example of this is the Band section in the homepage is not viewable on mobile devices but is viewable in the Our Band webpage. 
 
@@ -28,17 +29,18 @@ Our Music section provides a small number of videos and audio of the bands music
 
 The following section is split in two, the left is a carousel showing some recent reviews of the band to build trust. The right is a Contact Us section should the user have any questions.
 
-In a future version I would like to add a map feature showcasing the venues the band have played at using droplets on the map with information being shown when they are clicked. 
+#### Future Development
+In a future version I would like to add a map feature showcasing the venues the band have played in using droplets on the map with information being shown such as Place Name, Date, Images, Video, Reviews etc. when they are clicked. 
+
+In a future version provide a way for users to purchase music from the band either by download or by CD. 
 
 ### Our Band Page
 
-Used to provide the user with more information about the band and to showcase past accomplishments. 
+Used to provide the user with more information about the band and to showcase past accomplishments and a collage of photo's to show off the band members.
 
 ### Our Music Page
 
 Provides a full range of content of the bands music videos and audio.
-
-In a future version provide a way for users to purchase music from the band either by download or by CD. 
 
 ### Events Page
 
@@ -46,7 +48,7 @@ Provides information of the types of events that they do while also giving the c
 
 #### Book Now Page
 
-A simple booking form used by the client to book a type of event for a certain date. 
+A simple booking form used by the client to book a type of event for a certain date.
 While allowing the band easily collect the information they need.  
 
 ## Technologies Used
@@ -57,6 +59,9 @@ Used for displaying the content and layout.
 Used to make the website clean and responsive.
 Also used its built in features such as carousels and forms.
 
+[Javascript](https://www.javascript.com/)
+Required for Bootstrap components to run properly.
+
 [jQuery](http://code.jquery.com/)
 Required for Bootstrap components to run properly.
 
@@ -64,7 +69,7 @@ Required for Bootstrap components to run properly.
 As the webpages where being built I used the built in features of [Cloud9](https://aws.amazon.com/cloud9/) and Chromes built in developer tools. 
 
 I firstly tested the index.html page and stylesheet first as the information used on this page is used on the following pages. 
-After each section was developed of a page was developed I,
+After each section was developed I,
 1. made sure the content was responsive and layed out correctly as per the origional wireframe on desktop, tablet and mobile devices using the Chrome developer tools.
 2. made sure all links are correct
 3. made sure the code layout is correctly indented so it can be easily read. 
@@ -73,24 +78,55 @@ After each page was finished I used the [W3C Validator](https://validator.w3.org
 
 ## Deployment
 
+This website is hosted and deployed on GitHub Pages.
+The website can be viewed [Here](https://dbyrne87.github.io/)
+
+##### How to deploy website on Github Pages.
+
+   * Click on name of repository that you want to deployed.
+
+    * On the top bar click on "Settings".
+
+    * Scroll down to GitHub Pages and from source drop down list choose "Master branch".
+
+    * Create the name for your deployed website and click on "Save" button.
+
 
 ## Credits
 
 ### Content
 
 Google fonts was used throughout the website
-(https://fonts.google.com/)
+https://fonts.google.com/
 
 Icons8 is used for the tab icon in the browser
-(https://icons8.com/icon/52978/guitar)
+https://icons8.com/icon/52978/guitar
 
+The band collage was made using the BeFunky Collage Generator
+https://www.befunky.com/create/collage/
 
 ### Media
+Youtube Videos used for the Our Music iframe's
+https://www.youtube.com/
+
+The Audio files used are from Code Institute's Github repository
+https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/audio
+
 UnSplash for the high resolution images.
 (https://unsplash.com/)
+
 ### Acknowledgements
+
+Used W3C to check my HTML and CSS is correct and up to standard.
+[W3C Validator](https://validator.w3.org/)
 
 I used the basic layout themplate here from Blackrock Digital (https://blackrockdigital.github.io/startbootstrap-modern-business/)
 
 GitHub is used to backup the code and display my work 
 (https://github.com/)
+
+Stackoverflow for helping solve coding problems I had
+https://stackoverflow.com/
+
+w3schools for explaining code in easy to understand snippets
+https://www.w3schools.com/

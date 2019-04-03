@@ -179,17 +179,38 @@ ul{
   
 }
 
-.background-blur-one{
-  background: linear-gradient(to top, rgb(102, 126, 234, 0), rgb(118, 75, 162, .5));
-  max-width: 500px;
-  border-radius: 10px;
+.background-highlight-three{
+  background: linear-gradient(to top, rgb(102, 126, 234, .5), rgb(118, 75, 162, .5));
+  max-width: 400px;
+  transform: rotate(3deg);
   
 }
 
-.background-blur-two{
-  background: linear-gradient(to top, rgb(102, 126, 234, 0), rgb(118, 75, 162, .5));
+.background-highlight-four{
+  background: linear-gradient(to top, rgb(102, 126, 234, .5), rgb(118, 75, 162, .5));
+  max-width: 600px;
+  transform: rotate(0deg);
+  
+}
+
+.background-highlight-five{
+  background: linear-gradient(to top, rgb(255, 204, 255, .5), rgb(204, 0, 204, .5));
+  max-width: 400px;
+  transform: rotate(3deg);
+  
+}
+
+.background-highlight-six{
+  background: linear-gradient(to top, rgb(255, 204, 255, .5), rgb(204, 0, 204, .5));
+  max-width: 400px;
+  transform: rotate(0deg);
+  
+}
+
+.background-highlight-seven{
+  background: linear-gradient(to top, rgb(255, 204, 255, .5), rgb(204, 0, 204, .5));
   max-width: 500px;
-  border-radius: 10px;
+  transform: rotate(2deg);
   
 }
 
