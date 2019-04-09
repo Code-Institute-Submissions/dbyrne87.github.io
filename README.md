@@ -85,11 +85,11 @@ The website can be viewed [Here](https://dbyrne87.github.io/)
 
    * Click on name of repository that you want to deployed.
 
-    * On the top bar click on "Settings".
+   * On the top bar click on "Settings".
 
-    * Scroll down to GitHub Pages and from source drop down list choose "Master branch".
+   * Scroll down to GitHub Pages and from source drop down list choose "Master branch".
 
-    * Create the name for your deployed website and click on "Save" button.
+   * Create the name for your deployed website and click on "Save" button.
 
 
 ## Credits
