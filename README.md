@@ -2,7 +2,7 @@
 ## The Jones Music
 
 A clean and responsive website for a band, targeting both their current and potential future audience.
-This website is used to promote the bands music while also making it easy for potential clients and/or fans to book them to performe at events, weddings etc.
+This website is used to promote the bands music while also making it easy for potential clients and/or fans to book them to perform at events, weddings etc.
 The website layout was based around their primary and secondary targets for the website.
 
 ## UX
@@ -21,7 +21,7 @@ The Navbar is used to bring the fans/clients directly to the content they wish t
 
 I used the Bootstrap carousel with a background image to catch the users eye immediatly and promote the bands next gig and their availabilty for events and weddings.
 
-The What We Do section prvides an easily readable version of what the band offers.
+The What We Do section provides an easily readable version of what the band offers.
 
 The Band section explains each band members role, it is also clickable should the user want to find out more about the band.
 
@@ -46,7 +46,7 @@ Provides a full range of content of the bands music videos and audio.
 
 Provides information of the types of events that they do while also giving the client video of a past type of event to showcase what they offer. 
 
-#### Book Now Page
+### Book Now Page
 
 A simple booking form used by the client to book a type of event for a certain date.
 While allowing the band easily collect the information they need.  
@@ -66,15 +66,15 @@ Required for Bootstrap components to run properly.
 Required for Bootstrap components to run properly.
 
 ## Testing
-As the webpages where being built I used the built in features of [Cloud9](https://aws.amazon.com/cloud9/) and Chromes built in developer tools. 
+As the webpages where being built I used the built in features of [Cloud9](https://aws.amazon.com/cloud9/) and Google Chrome's built in developer tools. 
 
 I firstly tested the index.html page and stylesheet first as the information used on this page is used on the following pages. 
 After each section was developed I,
-1. made sure the content was responsive and layed out correctly as per the origional wireframe on desktop, tablet and mobile devices using the Chrome developer tools.
+1. made sure the content was responsive and laid out correctly as per the origional wireframe on desktop, tablet and mobile devices using the Chrome developer tools.
 2. made sure all links are correct
 3. made sure the code layout is correctly indented so it can be easily read. 
 
-After each page was finished I used the [W3C Validator](https://validator.w3.org/), to make sure both the HTML and CSS was up to current standards and best practice. I also made sure the code layout is correct for a final time and that all links and media work correctly
+After each page was finished I used the [W3C Validator](https://validator.w3.org/), to make sure both the HTML and CSS was up to current standards and best practice. I also made sure the code layout is correct for a final time and that all links and media work correctly.
 
 ## Deployment
 
@@ -119,11 +119,6 @@ UnSplash for the high resolution images.
 
 Used W3C to check my HTML and CSS is correct and up to standard.
 [W3C Validator](https://validator.w3.org/)
-
-I used the basic layout themplate here from Blackrock Digital (https://blackrockdigital.github.io/startbootstrap-modern-business/)
-
-GitHub is used to backup the code and display my work 
-(https://github.com/)
 
 Stackoverflow for helping solve coding problems I had
 https://stackoverflow.com/
